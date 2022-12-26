@@ -1,13 +1,15 @@
 1. first create a folder 
 2. open terminal in that directory
 3. run git init
-4. git will initialize an empty directory
+4. git will initialise an empty directory.(corrected the spelling here)
 5. create a file using touch command e.g touch page1.txt
 6. use vim or nano to add some text into it
 7. then run git status command to see what changes have been done so far.
 
 8. run git add . to add all the untracked files to staging area or  for particular file run git add page1.txt
 9. git status to see if the changes that are added to stage are on stage or not.
-10. if you have add unnecessary files to stage you can unstage it by running this command. git rm --cached <file>
+10. if you have add unnecessary files to stage you can unstage it by running this command. git rm --cached <file>.
+10.1. you can also run git restore --staged page1.txt to move unstaged changes.
+
 11. to save or take a picture of the moment at that point we use commit command as. git commit -m "page1.txt file added".
-12.  
+12. 
