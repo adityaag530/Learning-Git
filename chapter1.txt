@@ -12,4 +12,5 @@
 10.1. you can also run git restore --staged page1.txt to move unstaged changes.
 
 11. to save or take a picture of the moment at that point we use commit command as. git commit -m "page1.txt file added".
-12. 
+12. to delete a particular commit it is not possible. if you want to del a particular commit all commits done after that will also get deleted. to that first do git log, then copy the hash code of commit that you want to go to after that all commits will be get deleted. run git reset <commit hash>
+13. 
