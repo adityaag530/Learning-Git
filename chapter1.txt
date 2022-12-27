@@ -25,4 +25,14 @@ you can run git remote -v to find all the url associated with the current folder
 
 15. Now we cannot see the files in remote repo in git hub because we have only connected the local repo with the url to share files we have to run git push origin master command. her push is to share and origin is the url to push to and master is the branch im which branch to push.
 
-16.  
+16. Learn about git ssh over https and how to generate keys and tokens to connect teminal with github.
+
+17. learn about git remote set-url origin git@github.com/<youssh url>
+18. learn about ssh-keygen command, associating with ssh-agent.
+19. adding text to .ssh/config file Host *.github.com \n AddKeysToAgent yes \n UseKeychain yes \n IdentityFile ~/.ssh/<your key file name>
+20. add key in apple keychain ssh-add --apple-use-keychain ~/.ssh/<filename>
+21. copy text in key.pub file to github ssh create ssh token.
+22. test connection using ssh -T git@github.com
+23. and you are good to go.
+
+
