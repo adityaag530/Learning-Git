@@ -12,5 +12,17 @@
 10.1. you can also run git restore --staged page1.txt to move unstaged changes.
 
 11. to save or take a picture of the moment at that point we use commit command as. git commit -m "page1.txt file added".
+11.1. after running git log press q to exit the running git log service..
+
 12. to delete a particular commit it is not possible. if you want to del a particular commit all commits done after that will also get deleted. to that first do git log, then copy the hash code of commit that you want to go to after that all commits will be get deleted. run git reset <commit hash>
-13. 
+
+13. To push you local project to github, first you create a remote repository it will create a url then you have to connect that url with you local repo.
+git remote add origin <url>
+in this above command remote means we are adding url add means associating origin is the name of url, kind of contact name associate to phone no.
+
+14. all the repositories in your personal account has a url associate with origin.
+you can run git remote -v to find all the url associated with the current folder
+
+15. 
+
+ 
