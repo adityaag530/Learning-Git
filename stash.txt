@@ -1,0 +1,4 @@
+when ever you do some changes and you dont want to move it to commit and stage area
+then you can move it to the back stage or stash area
+
+to move it back to unstage are you can run git stash pop
