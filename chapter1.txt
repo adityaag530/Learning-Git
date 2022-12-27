@@ -23,6 +23,6 @@ in this above command remote means we are adding url add means associating origi
 14. all the repositories in your personal account has a url associate with origin.
 you can run git remote -v to find all the url associated with the current folder
 
-15. 
+15. Now we cannot see the files in remote repo in git hub because we have only connected the local repo with the url to share files we have to run git push origin master command. her push is to share and origin is the url to push to and master is the branch im which branch to push.
 
- 
+16.  
