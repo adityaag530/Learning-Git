@@ -1,0 +1,21 @@
+Passphrase for git ssh is <what you set>
+
+Use ssh to push from terminal or if you are using http then use access tokens
+1. Git remote set-url origin git@github.com:adaldfjalsdjfal -> sets url for the local repo
+
+2. To check for file-> ls -al ~/.ssh to see if there exist any ssh key present with id_25519.pub file
+3. To create key -> ssh-keygen -t ed25519 -C “<email>”
+4. Associate with key agent by
+
+Eval “$(ssh-agent -s)”
+5. Open ~/.ssh/config     if not present create it using touch command and add below lines
+Host *.github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+
+6. Ssh-add —apple-use-keychain ~/.ssh/id_e25519
+
+7. Add (text in id_ed25519.pub file to GitHub ssh tokens)
+8. Check for connection 
+	Ssh -T git@github.com
